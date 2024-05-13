@@ -23,7 +23,7 @@ export class PitchController {
         messages: [
           {
             role: 'user',
-            content: `Give a short pitch about ${city} highlighting its unique features.`,
+            content: `Give a short pitch about ${city}, which must be a real city on Earth. If ${city} is not a recognized city, please state "Enter a correct city name."`,
           },
         ],
         max_tokens: 200,
